@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: metanitesh/reverseproxy-project
+  backend_user:
+    build:
+      context: ../../udacity-c3-restapi-user
+    image: metanitesh/udacity-restapi-user-project
+  backend_feed:
+    build:
+      context: ../../udacity-c3-restapi-feed  
+    image: metanitesh/udacity-restapi-feed-project
+  frontend:
+    build:
+      context: ../../udacity-c3-frontend  
+    image: metanitesh/udacity-frontend-project
