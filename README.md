@@ -18,16 +18,16 @@ Starting the app in local system -
 Deployed Verison of App:
 http://ec2-15-206-178-112.ap-south-1.compute.amazonaws.com/
 
-Rolling Deployement is supported with kubectl deploy
+Rolling update:
+kubectl apply -f "udacity-c3-deployment/k8s/backend-feed-deployment.yaml/"
+
 
 Deployed screenshot
+![Deployed](./screenshots/deployed.png "Deployed version")
+
+CI screenshot
 ![CI](./screenshots/ci.png "CI/CD screenshot")
 ￼
-CI screenshot
-￼
-
-Kubernetese running pods screeshots
-
-￼
-
+Kubernetes running pods screeshots
+![CI](./screenshots/pods.png "Pods screenshots")
 
