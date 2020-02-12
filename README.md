@@ -31,3 +31,6 @@ CI screenshot
 Kubernetes running pods screeshots
 ![CI](./screenshots/pods.png "Pods screenshots")
 
+CloudWatch screenshot
+![CI](./screenshots/cloudwatch.png "Cloudwatch screenshots")
+
